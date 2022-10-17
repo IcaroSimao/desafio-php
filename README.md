@@ -12,7 +12,7 @@
 
 # Iniciar APP
   Necessita inicializar um local server. Pode-se escolher qualquer um.
-  Exemplo: baixe a biblioteca http-server com o comando: npm i http-server
+  Exemplo: instale a biblioteca http-server com o comando: npm i http-server
   e por fim execute na pasta app:  http-server
 
 # Iniciar API
