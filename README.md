@@ -13,7 +13,7 @@
 # Iniciar APP
   Necessita inicializar um local server. Pode-se escolher qualquer um.
   Exemplo: instale a biblioteca http-server com o comando: npm i http-server
-  e por fim execute na pasta app:  http-server
+  e por fim execute na pasta app:  http-server -p 8081
 
 # Iniciar API
   php -S localhost:8080
