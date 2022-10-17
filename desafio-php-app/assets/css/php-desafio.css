@@ -1,0 +1,32 @@
+.pointer{
+  cursor: pointer;
+}
+.menu{
+  box-shadow: 5px 0px 10px grey;
+}
+
+.menu-item{
+  transition: all .5s ease;
+}
+.menu-item:hover{
+  color: aqua !important;
+}
+
+a{
+  color: inherit!important;
+  text-decoration: none!important;
+}
+
+.accordion-active{
+  color: aqua;
+}
+
+.accordion{
+  overflow: hidden;
+  transition: all .5s ease;
+}
+
+.dialog-custom .mat-dialog-container{
+  padding: 0;
+  margin: 0;
+}

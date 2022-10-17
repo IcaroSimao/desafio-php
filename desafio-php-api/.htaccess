@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?path=$1 [QSA, L]
+
+<FilesMatch "\.(php|html|htm)$">
+    <IfModule mod_headers>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+</FilesMatch>
